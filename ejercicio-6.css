@@ -1,0 +1,43 @@
+/* DILAN ESTIVEN HENAO MONTOYA
+Card con grid */
+
+body {
+    background-color: antiquewhite;
+    font-family: Helvetica;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+}
+
+.card__tittle {
+    width: 200px;
+    height: 15px;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.card__content {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    padding: 10px;
+    text-align: left;
+    font-size: 0.6rem;
+}
+
+.card__footer {
+    width: 200px;
+    height: 15px;
+    background-color: gray;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 0.7rem;
+}

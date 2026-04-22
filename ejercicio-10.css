@@ -1,0 +1,45 @@
+/* DILAN ESTIVEN HENAO MONTOYA
+A toda página */
+
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: "header header header" "nav main aside";
+    height: 100vh;
+}
+
+.title {
+    grid-area: header;
+    background-color: #d48517;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+}
+
+.left__lateral {
+    grid-area: nav;
+    background-color: gray;
+    text-align: center;
+    padding: 20px;
+}
+
+.central__zone {
+    grid-area: main;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.right__lateral {
+    grid-area: aside;
+    background-color: gray;
+    text-align: center;
+    padding: 20px;
+}

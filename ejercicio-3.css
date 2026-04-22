@@ -1,0 +1,20 @@
+/* DILAN ESTIVEN HENAO MONTOYA
+Bloques paralelos */
+
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blocks {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 3px;
+    justify-content: center;
+}
+
+.grid__blocks {
+    width: 185px;
+    height: 185px;
+    background-color: #7fb89c;
+}

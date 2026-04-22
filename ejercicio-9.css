@@ -1,0 +1,30 @@
+/* DILAN ESTIVEN HENAO MONTOYA
+Un sidebar con menú */
+
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.sidebar__menu {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    height: 70vh;
+    gap: 2px;
+}
+
+.sidebar {
+    background-color: #2acdff;
+    padding: 10px;
+}
+
+.sidebar__item {
+    padding: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.content {
+    background-color: #7fb89c;
+    padding: 20px;
+}
